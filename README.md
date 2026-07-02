@@ -2,6 +2,8 @@
 
 Suite completa de testes End-to-End para a aplicação **Agenda de Contatos**, cobrindo CRUD de contatos com isolamento total via `cy.intercept()`, verificação de payloads enviados à API e testes de responsividade mobile.
 
+![App under test](docs/app-screenshot.png)
+
 ---
 
 ## Stack & Versões
@@ -33,6 +35,8 @@ Suite completa de testes End-to-End para a aplicação **Agenda de Contatos**, c
 | Responsividade | Fluxo completo de adição em viewport mobile | Mobile |
 
 **10 testes · 0 falhas · ~26 segundos**
+
+![Mochawesome Report](docs/test-report.png)
 
 ---
 
