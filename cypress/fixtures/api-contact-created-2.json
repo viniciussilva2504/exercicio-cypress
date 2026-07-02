@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1001,
+      "name": "Vinicius Silva",
+      "email": "vinicius@teste.com",
+      "phone": "11 999999999"
+    },
+    {
+      "id": 1002,
+      "name": "Maria Souza",
+      "email": "maria@teste.com",
+      "phone": "21 888888888"
+    }
+  ]
+}

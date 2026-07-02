@@ -14,5 +14,7 @@ Thumbs.db
 .idea/
 
 # Test results
+cypress/reports/
+cypress/videos/
+cypress/screenshots/
 results/
-reports/

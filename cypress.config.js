@@ -1,17 +1,21 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    baseUrl: 'https://ebac-agenda-contatos-tan.vercel.app',
+    defaultCommandTimeout: 8000,
+    viewportWidth: 1280,
+    viewportHeight: 720,
+    screenshotOnRunFailure: true,
+    video: true,
+    setupNodeEvents(on, config) {},
   },
   reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'cypress/reports',
     overwrite: true,
     html: true,
-    json: false,
-    timeStamp: 'ddmmyyyy_HHMMss'
-  }
-});
+    json: true,
+    timestamp: 'ddmmyyyy_HHMMss',
+  },
+})
